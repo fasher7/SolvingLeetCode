@@ -34,7 +34,7 @@ class Solution:
         if not root:
             return 0
         else:
-            return depth(root, 0) + 1
+            return depth(root, 1)
 
 root = [3,9,20,None,None,15,7]
 root = build_tree(root)
