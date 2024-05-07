@@ -35,7 +35,7 @@ class Solution:
             return True
         return isMirror(root.left, root.right)
 
-root = [1,2,2,None,3,None,3]
+root = [1,2,2,None,3,7,3]
 root = build_tree(root)
 iS = Solution()
 print(iS.isSymmetric(root))
